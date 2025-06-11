@@ -1,6 +1,7 @@
 This is a simple RESTful backend API for managing products built using Node.js, Express, and MongoDB.
 
 Technologies Used:
+
 Node.js
 
 Express.js
@@ -14,6 +15,7 @@ Postman (for testing)
 
 
 Features:
+
 Add a new product
 
 Get all products
@@ -29,6 +31,7 @@ Validation and meaningful responses included
 
 
 API Endpoints Overview:
+
 POST /products – Add a new product (needs name, price, and quantity).
 
 GET /products – Fetch all products in the database.
@@ -42,6 +45,7 @@ DELETE /products/:id – Remove a product from the database by ID.
 
 
 Notes:
+
 No authentication is used (as per the assignment).
 
 All routes are tested using Postman.
@@ -51,6 +55,7 @@ Validation and helpful success/error messages are added
 
 
 How to Run:
+
 Clone the project
 
 Run npm install
